@@ -26,9 +26,6 @@ aside {
     align-items: center;
     justify-content: center;
     flex: 1 1 200px;
-    /* flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 200px; */
     background-color: antiquewhite;
     border-radius: 12px;
     /* min-height: auto; */
@@ -38,10 +35,11 @@ aside {
     display: flex;
     flex-direction: column;
     flex: 3 1 300px;
-    /* flex-grow: 3;
-    flex-shrink: 3;
-    flex-basis: 300px; */
+    font-size: 40px;
     gap: 10px;
+    color: black;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyJgOKMTyOCP3Bv_GVy1QrYpt7rUHDf709Hg&s");
+    /* background-repeat: no-repeat; *
 }
 
 .content {
@@ -49,16 +47,22 @@ aside {
     align-items: center;
     justify-content: center;
     background-color: cornsilk;
-    height: 50%;
+    /* height: 50%; */
     border-radius: 12px;
     padding: 12px;
 }
 
 .section {
-     display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     background-color: cadetblue;
-    height: 50%;
+    /* height: 50%; */
     border-radius: 12px;
+}
+
+
+.profile {
+    width: 900px;
+    height: 500px;
 }
